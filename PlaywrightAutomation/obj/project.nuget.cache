@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "j089IMni8HE=",
+  "success": true,
+  "projectFilePath": "/Users/venni/Documents/Repo/playwright-csharp-automation/PlaywrightAutomation/PlaywrightAutomation.csproj",
+  "expectedPackageFiles": [
+    "/Users/venni/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
+    "/Users/venni/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "/Users/venni/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",
+    "/Users/venni/.nuget/packages/microsoft.net.test.sdk/17.8.0/microsoft.net.test.sdk.17.8.0.nupkg.sha512",
+    "/Users/venni/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/venni/.nuget/packages/microsoft.playwright/1.58.0/microsoft.playwright.1.58.0.nupkg.sha512",
+    "/Users/venni/.nuget/packages/microsoft.playwright.nunit/1.58.0/microsoft.playwright.nunit.1.58.0.nupkg.sha512",
+    "/Users/venni/.nuget/packages/microsoft.playwright.testadapter/1.58.0/microsoft.playwright.testadapter.1.58.0.nupkg.sha512",
+    "/Users/venni/.nuget/packages/microsoft.testplatform.objectmodel/17.8.0/microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
+    "/Users/venni/.nuget/packages/microsoft.testplatform.testhost/17.8.0/microsoft.testplatform.testhost.17.8.0.nupkg.sha512",
+    "/Users/venni/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/venni/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/venni/.nuget/packages/nuget.frameworks/6.5.0/nuget.frameworks.6.5.0.nupkg.sha512",
+    "/Users/venni/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
+    "/Users/venni/.nuget/packages/nunit.analyzers/3.6.1/nunit.analyzers.3.6.1.nupkg.sha512",
+    "/Users/venni/.nuget/packages/nunit3testadapter/4.4.2/nunit3testadapter.4.4.2.nupkg.sha512",
+    "/Users/venni/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
