@@ -20,7 +20,7 @@ public class LoginTest : PageTest
     {
       String pageTitle = await Page.TitleAsync();
          Console.WriteLine($"Page Title: {pageTitle}");
-         await Expect(Page).ToHaveTitleAsync("Home - Execute Automation Employee App");
+         await Expect(Page).ToHaveTitleAsync("Home - EAEmployee");
         //  await Page.ClickAsync("text=Visit now");
         // string currentUrl = Page.Url;
         //  Console.WriteLine(Page.Url);
@@ -33,16 +33,18 @@ public class LoginTest : PageTest
         await Page.FillAsync("#Password", "password");
         Console.WriteLine($"Password is Entered");
 
-        //02 - another way of using locators
-        var btnlgn = Page.Locator(
-            "input", new PageLocatorOptions{HasTextString="Log in"}
-        );
-        await btnlgn.ClickAsync();
+        //02 - another way of using locators - using Locators with Page Locator Options
+        // var btnlgn = Page.Locator(
+        //     "input", new PageLocatorOptions{HasTextString="Sign In"}
+        // );
+        // var btnlgn = Page.Locator("text=Sign In");
+        // await btnlgn.ClickAsync();
+        await Page.GetByRole(AriaRole.Button, new() { Name = "Sign In" }).ClickAsync();
+        Console.WriteLine($"User clicked Sign In button");
 
-        //await Page.ClickAsync("text=Log in");
         string currentUrl = Page.Url;
         Console.WriteLine($"Loggedin url is :{Page.Url}");
-        await Expect(Page.Locator("text='Courses'")).ToBeVisibleAsync();
+        await Expect(Page.Locator("text='Hello admin!'")).ToBeVisibleAsync();
          Console.WriteLine($"User Logged in Successfully");
 
       await Page.CloseAsync();
